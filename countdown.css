@@ -1,0 +1,55 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    padding-bottom: 10px;
+    background: rgb(50,49,49);
+background: linear-gradient(90deg, rgba(50,49,49,1) 11%, rgba(206,206,206,1) 95%);
+}
+
+  .main{
+    display: inline;
+  }
+  .container{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    margin-left: 30px;
+  }
+  .iphone-img img{
+    width: 330px;
+    height: 430px;
+    border: #000000 solid 0px;
+    border-radius: 15px;
+  }
+
+  h1 {
+    color: rgb(0, 0, 0);
+    /* -webkit-text-stroke: #ffffff 1px; */
+  }
+  .content{
+    margin-top: 20px;
+    margin-left: 40px;
+  }
+
+  .countdown {
+    font-size: 20px;
+    margin-top: 2%;
+    margin-left: 2%;
+    display: inline-block;
+    color: #000000;
+    border: #000000 5px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    /*padding: 20px 20px;
+    border-radius: 60px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+  }
+  .countdown span {
+    margin: 0 5px;
+    padding: 20px;
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 5px;
+    border: rgb(0, 0, 0) solid 3px;
+  }
